@@ -1,0 +1,73 @@
+{
+  "clientId": "fapi1-baseline",
+  "name": "",
+  "description": "",
+  "rootUrl": "",
+  "adminUrl": "",
+  "baseUrl": "",
+  "surrogateAuthRequired": false,
+  "enabled": true,
+  "alwaysDisplayInConsole": false,
+  "clientAuthenticatorType": "client-jwt",
+  "secret": "pBWnJr7dtituag3y6VlgZVwwf5kIdruj",
+  "redirectUris": [
+    "https://localhost:4001/api/authRedirect"
+  ],
+  "webOrigins": [
+    ""
+  ],
+  "notBefore": 0,
+  "bearerOnly": false,
+  "consentRequired": false,
+  "standardFlowEnabled": true,
+  "implicitFlowEnabled": false,
+  "directAccessGrantsEnabled": false,
+  "serviceAccountsEnabled": false,
+  "publicClient": false,
+  "frontchannelLogout": true,
+  "protocol": "openid-connect",
+  "attributes": {
+    "client.secret.creation.time": "1731936130",
+    "client.introspection.response.allow.jwt.claim.enabled": "false",
+    "token.endpoint.auth.signing.alg": "PS256",
+    "oauth2.device.authorization.grant.enabled": "false",
+    "use.jwks.url": "false",
+    "backchannel.logout.revoke.offline.tokens": "false",
+    "use.refresh.tokens": "true",
+    "jwt.credential.certificate": "MIICqzCCAZMCBgGTP4EDiDANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDDA5mYXBpMS1iYXNlbGluZTAeFw0yNDExMTgxMzM4NTlaFw0zNDExMTgxMzQwMzlaMBkxFzAVBgNVBAMMDmZhcGkxLWJhc2VsaW5lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmg6eWnZFqEeVs3VX6v5SDBGpYjY/tb1a/DCTvGSMlpUWhP3QSx0KfWD98xPJtiVFF3tr8HDW2anb5TujSgJLCLA9sW2ndEqHfy/b84+Z9FcJxD1RLi7swiRBPmjMj5LTRgevbKZMDkRUOhJirqk//VTi3SsiiWKeEBtM8d4cmTBFApYe7+nrFQde/v23i4Z5s2P+ENon5Jw+/ejjiNU7ycVC25nyTRefj68oyHtNico2dkp7cYfBv5IvRDoF3o8yakq2qez9fc98uJOTWiqoXWg4e/nWvuS4h03aFKG0jLBN9QZSL+i/CSjLhbHN6w1zLZ6iuxi/SQ9p4UajK+EdsQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAINwHOfyoZtRVri64xk9tCwU2zrXDWo2RMAf+HoI+jC/A+lfP9fVWcwtKyTeR6Zx0z1bFPhieDuPq7/71/+DoI/pGpDH38XI+3CZG3NfzDKelaC7VWqKcmRYJwRVnY8Y/510XK9WoUNBvE7ueglJvB8lHp/lBWMUI7vhoZKgKox61Zb45hsQbbJzNPBSeLrjc1VyZt53bpSAwoYB4lexd6iWt5wx7sY9J4zIa4YpSStHPQ933YCKa+5Dt38ZxWWjJOvJjzndRybOgLw69YcppaXD8BavWS43yeRSMaB+nRkgk8zBLRV4yas+xS0lYDPkTSS052HtRXBMmBeSGK2wdc",
+    "realm_client": "false",
+    "oidc.ciba.grant.enabled": "false",
+    "client.use.lightweight.access.token.enabled": "false",
+    "backchannel.logout.session.required": "true",
+    "client_credentials.use_refresh_token": "false",
+    "acr.loa.map": "{}",
+    "require.pushed.authorization.requests": "false",
+    "tls.client.certificate.bound.access.tokens": "false",
+    "display.on.consent.screen": "false",
+    "pkce.code.challenge.method": "S256",
+    "token.response.type.bearer.lower-case": "false"
+  },
+  "authenticationFlowBindingOverrides": {},
+  "fullScopeAllowed": true,
+  "nodeReRegistrationTimeout": -1,
+  "defaultClientScopes": [
+    "web-origins",
+    "acr",
+    "profile",
+    "roles",
+    "basic",
+    "email"
+  ],
+  "optionalClientScopes": [
+    "address",
+    "phone",
+    "offline_access",
+    "organization",
+    "microprofile-jwt"
+  ],
+  "access": {
+    "view": true,
+    "configure": true,
+    "manage": true
+  }
+}
